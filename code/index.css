@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: "satoshi";
+    src: url("./Fonts/Satoshi-Regular.otf");
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+[data-scroll-container] {
+  min-height: 100vh;
+}
+
+
+.satoshi{
+    font-family: satoshi;
+}
+
+.font-extrabold{
+    font-weight: "bolder";
+}
